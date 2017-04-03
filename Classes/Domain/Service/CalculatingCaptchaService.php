@@ -10,7 +10,7 @@ use TYPO3\CMS\Core\TypoScript\TemplateService;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
 use TYPO3\CMS\Extbase\Configuration\ConfigurationManager;
 use TYPO3\CMS\Extbase\Configuration\ConfigurationManagerInterface;
-use TYPO3\CMS\Extbase\Service\TypoScriptService;
+use TYPO3\CMS\Core\TypoScript\TypoScriptService;
 
 /***************************************************************
  *  Copyright notice

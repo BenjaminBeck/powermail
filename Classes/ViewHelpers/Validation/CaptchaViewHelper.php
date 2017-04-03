@@ -8,7 +8,7 @@ use In2code\Powermail\Utility\StringUtility;
 use In2code\Powermail\Utility\TypoScriptUtility;
 use ThinkopenAt\Captcha\Utility;
 use TYPO3\CMS\Core\Utility\VersionNumberUtility;
-use TYPO3\CMS\Extbase\Service\TypoScriptService;
+use TYPO3\CMS\Core\TypoScript\TypoScriptService;
 use TYPO3\CMS\Core\Utility\ExtensionManagementUtility;
 use TYPO3\CMS\Extbase\Configuration\ConfigurationManagerInterface;
 use TYPO3\CMS\Fluid\Core\ViewHelper\AbstractTagBasedViewHelper;

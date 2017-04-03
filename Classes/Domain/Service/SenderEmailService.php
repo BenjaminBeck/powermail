@@ -6,7 +6,7 @@ use In2code\Powermail\Signal\SignalTrait;
 use In2code\Powermail\Utility\ObjectUtility;
 use In2code\Powermail\Utility\TypoScriptUtility;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
-use TYPO3\CMS\Extbase\Service\TypoScriptService;
+use TYPO3\CMS\Core\TypoScript\TypoScriptService;
 
 /***************************************************************
  *  Copyright notice
@@ -76,6 +76,7 @@ class SenderEmailService
         /** @var TypoScriptService $typoScriptService */
         $typoScriptService = ObjectUtility::getObjectManager()->get(TypoScriptService::class);
         $this->configuration = $typoScriptService->convertPlainArrayToTypoScriptArray($this->settings);
+
     }
 
     /**

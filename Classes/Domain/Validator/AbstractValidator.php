@@ -6,7 +6,7 @@ use In2code\Powermail\Domain\Model\Mail;
 use In2code\Powermail\Utility\ObjectUtility;
 use TYPO3\CMS\Extbase\Configuration\ConfigurationManagerInterface;
 use TYPO3\CMS\Extbase\Service\FlexFormService;
-use TYPO3\CMS\Extbase\Service\TypoScriptService;
+use TYPO3\CMS\Core\TypoScript\TypoScriptService;
 use TYPO3\CMS\Extbase\Validation\Exception\InvalidValidationOptionsException;
 use TYPO3\CMS\Extbase\Validation\Validator\AbstractValidator as ExtbaseAbstractValidator;
 
