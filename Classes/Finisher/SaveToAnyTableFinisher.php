@@ -3,6 +3,7 @@ namespace In2code\Powermail\Finisher;
 
 use In2code\Powermail\Domain\Service\SaveToAnyTableService;
 use In2code\Powermail\Utility\StringUtility;
+use TYPO3\CMS\Core\TypoScript\TypoScriptService;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
 
 /***************************************************************
@@ -39,7 +40,7 @@ class SaveToAnyTableFinisher extends AbstractFinisher implements FinisherInterfa
 {
 
     /**
-     * @var \TYPO3\CMS\Extbase\Service\TypoScriptService
+     * @var \TYPO3\CMS\Core\TypoScript\TypoScriptService
      * @inject
      */
     protected $typoScriptService;
